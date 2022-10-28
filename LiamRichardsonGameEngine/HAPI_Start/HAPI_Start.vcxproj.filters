@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Vizulation">
+      <UniqueIdentifier>{40837e35-680d-47a7-8768-d992643cb9d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{1d853e09-a365-4ec4-9dbb-8f79ae3c6f3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{ba3e43d1-920b-4e6a-87df-28e4b4a64617}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Vizulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Vizulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Visulization.cpp">
+      <Filter>Vizulation</Filter>
+    </ClCompile>
+    <ClCompile Include="world.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyEntity.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerEntity.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletEntity.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletEnemyEntity.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Vizulation</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Vizulation</Filter>
+    </ClInclude>
+    <ClInclude Include="Visulization.h">
+      <Filter>Vizulation</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyEntity.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEntity.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletEntity.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletEnemyEntity.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
